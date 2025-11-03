@@ -13,8 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.entities.Order;
 import com.example.demo.services.OrderService;
 
-import org.springframework.web.bind.annotation.RequestParam;
-
 
 @RestController
 @RequestMapping(value = "/orders")
